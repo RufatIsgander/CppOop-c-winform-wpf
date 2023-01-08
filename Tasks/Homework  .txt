@@ -1,0 +1,17 @@
+
+Tapshiriq 1:
+1. Time class yaradin (saat ve deqiqe fieldleri olsun)
+2. Increment, decrement elave edin (posfix ve prefix).
+Increment ve decrement ilk novbede deqiqelere tesir edir
+3. Time obyektlerini muqayise etmek uchun novbeti operatorlari
+overload edin (<, >, <=, >=, !=, ==)
+4. Emeliyyatlarin neticesini cap edin
+
+
+
+Tapshiriq 2;
+Student age,score,name,bonus(min=0)
+(<, >, <=, >=, !=, ==)
+. Increment, decrement elave edin (posfix ve prefix).
+bu emeliyyatlar telebebin bonusuna tesir elesin.minimum bonus 0 dir
+,eger bonus 0 sa decrement olsa sabit 0 qalsin.

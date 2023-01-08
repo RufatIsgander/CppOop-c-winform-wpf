@@ -1,0 +1,20 @@
+
+MyString
+	//1)1 ci xarakter qaytaran method
+	//2)sonuncu xarakter qaytaran method 
+	//3) Append(const char* text)  
+	//4) s.rfind('a') 
+	//5)s.find('w')//6 xarakterin indexi qayitsin
+	//6)s.clear()//string silinsin delete edin
+
+/*
+1. IntArray class-i yaradin. Bu class massiv rolunu
+oynamalidir.
+Novbeti imkanlar olsun:
+- Massivin evveline reqem elave eden method
+- Massivin sonuna reqem elave eden method
+- Massivi copy etmek imkani yaradin
+- Print
+*/
+
+

@@ -1,0 +1,31 @@
+QEYD: Kechdiymiz her shey istifade olunsun
+
+class: Computer
+fields:
+id(static)
+object_Id
+model(char*)
+vendor(char*)
+videocard(char*)
+monitor(char*)
+cpu_hz
+core
+ram
+disk_size
+isSSD(bool)
+cin, cout overload
+constructors
+destructor
+
+
+class: ComputerStore
+store_name(char*)
+store_address(char*)
+Computer** computers; (array)
+addComputer();
+deleteComputer(int id);
+cin, cout overload
+constructors
+destructor
+
+

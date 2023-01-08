@@ -1,0 +1,6 @@
+	// istifadechi ilk defe giribse, adi, chekisi, boyunu daxil edir.
+	// gundelik neche litr su ichmeli oldugu hesablanir. (20kq == 1l)
+	// ekranda neche litr su ichmeli oldugu gorsenir. elava olaraq 2 sechim chixir => su ichdim ve  gunu bitir
+	// su ichdim sechdikde suyun miqdarini daxil edir. gundelik ichmeli oldugu suyun miqdari azalir
+	// gunu bitir sechdikde novbeti gune kechir. ve ayin tarixi ve hemin gun neche litr su ichdiyi fayla yazilir.
+	//

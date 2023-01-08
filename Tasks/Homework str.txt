@@ -1,0 +1,10 @@
+// class: User
+// fields: username, password
+
+// class: Database
+// field: User* users(array)
+// field: int size;
+
+// method: bool SignIn(User)
+// method: bool SignUp(User)
+// method: User GetUserByUsername(username)

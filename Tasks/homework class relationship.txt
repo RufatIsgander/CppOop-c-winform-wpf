@@ -1,0 +1,44 @@
+#include <iostream>
+#include <assert.h>
+using namespace std;
+
+
+class Node {
+public:
+	Node* prev;
+	Node* next;
+	string data;
+	Node() : prev(), next(), data() {}
+	Node(const string& data) :prev(), next(), data(data) {}
+
+};
+
+class DoublyLinkedList {
+	Node* head;
+	Node* tail;
+public:
+	DoublyLinkedList() : head(), tail() {}
+
+	void AddBegin(const string& data); // O(1) 
+	void AddEnd(const string& data);   // O(1) 
+
+	void AddBefore(const string& x,const string& data); // O(n) 
+	void AddAfter(const string& x,const string& data);  // O(n) 
+
+	void DeleteBegin(); // O(1) 
+	void DeleteEnd();	// O(1) 
+	void DeleteByValue(const string& x); // O(n) 
+
+	void ForwardTraverse(); //  
+	void BackwardTraverse(); // 
+
+};
+
+
+// task 2
+Single 
+MultiLevel
+Multiple
+Hierarchy
+
+her birine uygun real heyatdan numuneler yazin 

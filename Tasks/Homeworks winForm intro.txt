@@ -1,0 +1,15 @@
+Task 1 => Iki dene Button Baku ve London
+
+Baku button-a click edende arxa fon shekili Baku olacaq.
+ve zamana Baki vaxtini gosterecek.
+
+London-a click edende hemchinin eyni.
+
+Default (Baku olsun)
+
+
+
+
+Task 2 => Qachan Button tapshirigi
+Form mouse hover event istifade edin.
+Her defe button qachir, bashqa yerde peyde olur.

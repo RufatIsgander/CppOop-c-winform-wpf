@@ -1,0 +1,11 @@
+//Task 
+// Class DynamicArray (template<class t, int len>)
+// Example: DynamicArray<double, 20> da;
+// Copy Constructor, Copy Assignment operator, Default Constructor
+// InitRandom()
+// [] operator overloading
+// AddElementToEnd
+// AddElementToHead
+// AddElementByIndex
+// DeleteElementByIndex
+// Print()

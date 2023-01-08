@@ -1,0 +1,17 @@
+// Kechilenlerin her biri istifade olunsun
+// Initializer list, Delegate, getter setter
+
+class: Product
+fields: id, name, description, price, discount
+methods: ShowProduct(), GetPriceWithDiscount()
+
+
+Stock{
+   char* name
+   Product*	// array
+   Print()	// show all product in Stock
+   Product GetProduct(int id);
+}
+
+
+

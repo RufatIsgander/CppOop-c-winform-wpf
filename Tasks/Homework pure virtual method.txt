@@ -1,0 +1,141 @@
+MakeDish Task=>
+Ashagida verilen structuraya esasen yemek hazirlama programi 
+hansiki SIZDE MENU OLSUN VE HEMEN MENU DA HANSI YEMEYIN HAZIRLANMASINI ISTEYIRSE ISTIFADECHI
+SECHSIN VE ONDAN SONRA HANSI INGREDIENTLERI ISTEYIRSE ONLARI ELAVE ETSIN SIYAHIDAN SECHIB.
+ELAVE ETME PROSESI BITENDEN SONRA YEMEK HAZIRLANMAGA GONDERILIR VE MESELEN 20 SANIYE GOZLENILSIN (
+YEMEYIN HAZIRLANMA MUDDETI, VE SONDA SIZ UMUMI YEMEKLE BAGLI UMUMI BUTUN MELUMATLARI GOSTERIN(
+HANSIKI UMUMI INGREDIENTLERIN PROTEIN DEYERI ,KALORISI VE s))//Elaveler ede bilersiniz.(UGURLAR)
+
+//Task
+class Ingredient {
+protected:
+	string name;
+	double fats;
+	double protein;
+	double carbohydrates;
+	int kcal;
+public:
+	//constructor default ,parametric
+
+	//getter setter
+
+	//pure virtual destructor - > class should be abstract
+
+};
+
+class Mushrooms :public Ingredient {
+public:
+	Mushrooms(const string name, fat, protein, carbohydrates, kcal) :Ingredient() {
+
+	}
+
+};
+
+class Meat :public Ingredient {
+
+};
+
+class Spices :public Ingredient {
+
+
+};
+
+class Cheese :public Ingredient {
+
+
+};
+
+class Tomatoes :public Ingredient {
+
+
+};
+
+
+struct RecipetItem {
+	Ingredient* ingredient; //one object
+	int amount;
+	//constructor
+};
+
+//Yemek
+class Dish { // Meal
+protected:
+	RecipetItem** ingredients;
+	int count;
+	string name;
+public:
+	//ctor Default + Parametric
+	//abstract class , with pure virtual destructor
+
+	//getter setter
+
+	void addIngredient(Ingredient* ingredient, int amount) {
+
+	}
+
+	virtual void taste() {
+		cout << "I do not know what is this ? " << endl;
+	}
+
+	virtual void printRecipe()const {
+
+	}
+	virtual ~Dish() = 0//for abstraction
+	{
+
+	}
+};
+
+
+class Pizza :public Dish {
+
+};
+
+
+class Kabab :public Dish {
+
+};
+
+class Dolma :public Dish {
+
+};
+
+
+class CookingDevice {
+protected:
+	Dish* dish;
+	bool isCooked;
+	int second;
+	virtual void cook() {
+
+	}
+};
+
+class Oven :public CookingDevice {
+public:
+
+	Oven()
+	{
+		dish = new Pizza("Bomba Pizza");
+	}
+};
+
+class Pot :public CookingDevice {
+
+public:
+	Pot()
+	{
+		dish = new Dolma("Dolma");
+	}
+
+};
+
+class Brazier :public CookingDevice {
+
+public:
+	Brazier()
+	{
+		dish = new Kabab("Babat Kabab");
+	}
+
+};

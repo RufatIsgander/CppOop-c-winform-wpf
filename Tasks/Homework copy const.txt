@@ -1,0 +1,15 @@
+class: Debtor (debtor-borclu)
+fields: objectId, name, surname, workAddress, salary, phoneNumber
+fields: hasLatePayment(bool), liveAddress, debt, Id(static)
+methods: showDebtor
+
+
+class: Bank 
+fields: name, debtors(array)
+method: showAllDebtors,
+method: borcu 1000 den yuxari olanlari gostermek
+method: gecikmesi olanlari gostermek
+
+
+QEYD: Kechdiymiz her shey istifade olunsun.
+static field, copy constructor ve s

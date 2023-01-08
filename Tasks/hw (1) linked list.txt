@@ -1,0 +1,1 @@
+singlylinkedlist'in qalan methodlarini yazin

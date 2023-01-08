@@ -1,0 +1,1 @@
+IDictionary'den torenen butun data structurlari tapmaq, her birine numune yazmaq
